@@ -10,5 +10,5 @@
 $ npm run dev 
 $ npm run lint
 $ npm run format:check
-$ npm run format :write
+$ npm run format:write
 ...

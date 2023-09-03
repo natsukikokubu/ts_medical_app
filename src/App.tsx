@@ -3,7 +3,7 @@ import { Home } from './pages/Home'
 import { List } from './pages/List'
 import { Result } from './pages/Result'
 import { Explanation } from './pages/Explanation'
-import { Chatgpt } from './pages/Chatgpt'
+import { Chat } from './pages/Chat'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Route path="/list" element={<List />} />
       <Route path="/result" element={<Result />} />
       <Route path="/explanation" element={<Explanation />} />
-      <Route path="/chatgpt" element={<Chatgpt />} />
+      <Route path="/chat" element={<Chat />} />
     </Routes>
   )
 }
