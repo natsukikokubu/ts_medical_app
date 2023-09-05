@@ -7,6 +7,8 @@
 # SetUp
 
 ...sh
-$ npm run dev
+$ npm run dev 
 $ npm run lint
+$ npm run format:check
+$ npm run format:write
 ...
