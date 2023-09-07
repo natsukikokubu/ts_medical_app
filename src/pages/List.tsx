@@ -35,7 +35,7 @@ export const List = () => {
         知っておいてほしいあれこれ
       </h3>
       <a className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 cursor-pointer">
-        <Card title="人工呼吸器とは" p="hoge" onClick={openModal1} />
+        <Card title="人工呼吸器とは" text="hoge" onClick={openModal1} />
         <Modal
           isOpen={isModalOpen1}
           closeModal={closeModal1}
@@ -44,7 +44,7 @@ export const List = () => {
         />
       </a>
       <a className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 cursor-pointer">
-        <Card title="心臓マッサージとは" p="hoge" onClick={openModal2} />
+        <Card title="心臓マッサージとは" text="hoge" onClick={openModal2} />
         <Modal
           isOpen={isModalOpen2}
           closeModal={closeModal2}

@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Button } from '../components/Button'
 
 interface ModalProps {
   isOpen: boolean
@@ -21,12 +22,7 @@ export const Modal: FC<ModalProps> = ({ isOpen, closeModal, title, content }) =>
           <p className="whitespace-pre-wrap">{content}</p>
         </div>
         <div className="modal-footer p-4 border-t">
-          <button
-            className="modal-close-btn bg-blue-500 hover:bg-blue-600 text-white rounded px-4 py-2"
-            onClick={closeModal}
-          >
-            閉じる
-          </button>
+          <Button label="閉じる" onClick={closeModal} variant="secondary" />
         </div>
       </div>
     </div>

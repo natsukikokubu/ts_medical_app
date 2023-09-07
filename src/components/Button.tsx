@@ -1,7 +1,7 @@
 type Props = {
   label: string
   onClick: () => void
-  variant: 'primary'
+  variant: 'primary' | 'secondary'
 }
 
 export const Button = ({ label, onClick }: Props) => {
