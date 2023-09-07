@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
-import { Home } from './pages/Home'
-import { List } from './pages/List'
-import { Result } from './pages/Result'
-import { Explanation } from './pages/Explanation'
-import { Chat } from './pages/Chat'
+import { Home } from './　pages/Home'
+import { List } from './　pages/List'
+import { Result } from './　pages/Result'
+import { Explanation } from './　pages/Explanation'
+import { Chat } from './　pages/Chat'
 
 function App() {
   return (

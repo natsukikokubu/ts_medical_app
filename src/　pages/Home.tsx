@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 export const Home = () => {
   const navigate = useNavigate()
   const handleClickButton = () => {
-    navigate('/List')
+    navigate('/list')
   }
   return (
     <div>
